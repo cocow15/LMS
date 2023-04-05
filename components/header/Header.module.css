@@ -1,0 +1,27 @@
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    box-shadow: 3px 3px 11px 3px rgb(0 0 0 / 32%);
+}
+
+.image {
+    margin-left: 30px;
+    margin-bottom: 8px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; 
+    margin-right: 70px;
+}
+
+.item {
+    margin: 0px 16px;
+    font-size: 20px;
+}   
+
