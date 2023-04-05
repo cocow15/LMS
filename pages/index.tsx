@@ -1,6 +1,7 @@
 import Button from '@/components/button';
 import styles from '@/styles/Home.module.css'
 import Layout from '@/components/layout';
+import Card from '@/components/card';
 import Image from "next/image";
 
 export default function Home() {
@@ -8,6 +9,26 @@ export default function Home() {
     alert('Button clicked!');
   };
 
+  const courses = [
+    {
+      id: 1,
+      title: 'Pemrograman Dasar',
+      imageUrl: "/course1.png",
+      href: '/courses/pemrograman-dasar',
+    },
+    {
+      id: 2,
+      title: 'Algoritma dan Struktur Data',
+      imageUrl: "/course2.png",
+      href: '/courses/algoritma-struktur-data',
+    },
+    {
+      id: 3,
+      title: 'Basis Data',
+      imageUrl: "/course3.png",
+      href: '/courses/basis-data',
+    },
+  ];
   
   return (
     <>
@@ -25,7 +46,19 @@ export default function Home() {
             </div>
       
           </div>
-
+          <div className={styles.containerMK}>
+            <h1 className={styles['title-listMK']}>List Mata Kuliah</h1>
+            <div className={styles['card-container']}>
+                {courses.map((course) => (
+                  <Card
+                    key={course.id}
+                    title={course.title}
+                    imageUrl={course.imageUrl}
+                    href={course.href}
+                  />
+                ))}
+            </div>
+          </div>
         </div>
         
         

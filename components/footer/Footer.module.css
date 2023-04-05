@@ -1,4 +1,35 @@
-.title {
+.container {
+    background-color: #242648;
+    font-size: 20px;
+}
+
+.textContainer {
     text-align: center;
-    color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.text1 {
+    margin: 10px 25px
+}
+
+.text2 {
+    margin: 10px 20px
+}
+
+.text3 {
+    text-align: center;
+    color: white;
+}
+
+.image {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: white;
 }
