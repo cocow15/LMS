@@ -12,9 +12,9 @@ export default function Home() {
   const courses = [
     {
       id: 1,
-      title: 'Pemrograman Dasar',
+      title: 'Aplikasi Perancangan Perangkat Lunak 2',
       imageUrl: "/course1.png",
-      href: '/courses/pemrograman-dasar',
+      href: '/courses/Aplikasi-Perancangan-Perangkat-Lunak 2',
     },
     {
       id: 2,
@@ -24,6 +24,42 @@ export default function Home() {
     },
     {
       id: 3,
+      title: 'Basis Data',
+      imageUrl: "/course3.png",
+      href: '/courses/basis-data',
+    },
+    {
+      id: 4,
+      title: 'Aplikasi Perancangan Perangkat Lunak 2',
+      imageUrl: "/course1.png",
+      href: '/courses/Aplikasi-Perancangan-Perangkat-Lunak 2',
+    },
+    {
+      id: 5,
+      title: 'Algoritma dan Struktur Data',
+      imageUrl: "/course2.png",
+      href: '/courses/algoritma-struktur-data',
+    },
+    {
+      id: 6,
+      title: 'Basis Data',
+      imageUrl: "/course3.png",
+      href: '/courses/basis-data',
+    },
+    {
+      id: 7,
+      title: 'Aplikasi Perancangan Perangkat Lunak 2',
+      imageUrl: "/course1.png",
+      href: '/courses/Aplikasi-Perancangan-Perangkat-Lunak 2',
+    },
+    {
+      id: 8,
+      title: 'Algoritma dan Struktur Data',
+      imageUrl: "/course2.png",
+      href: '/courses/algoritma-struktur-data',
+    },
+    {
+      id: 9,
       title: 'Basis Data',
       imageUrl: "/course3.png",
       href: '/courses/basis-data',
