@@ -13,7 +13,7 @@ export default function Header(){
                     <a>Beranda</a>
                     </Link>
                 </li>
-                <li className={styles.item}><Link href="/register" legacyBehavior><a>Mata Kuliah</a></Link></li>
+                <li className={styles.item}><Link href="/login" legacyBehavior><a>Mata Kuliah</a></Link></li>
                 <li className={styles.item}><Link href="/users" legacyBehavior><a>Tentang Kami</a></Link></li>
                 <li className={styles.item}><Link href="/blog" legacyBehavior><a>Profile</a></Link></li>
             </ul>

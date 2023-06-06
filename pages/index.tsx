@@ -1,5 +1,5 @@
 import Button from '@/components/button';
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/Home.module.css';
 import Layout from '@/components/layout';
 import Card from '@/components/card';
 import Image from "next/image";
